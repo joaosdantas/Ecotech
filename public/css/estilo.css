@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+/* *{
+    box-sizing: border-box;
+} */
+
+
+/*------------------ CSS DO JOAO ------------------*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-rows: 15vh 10vh 55vh 20vh;
+    grid-template-areas: "header header" "nav nav" "content aside" "footer footer";
+    /* para definir a área no grid utilize 'grid-area' */
+}
+
+body {
+    font-family: 'Bree Serif';
+}
+
+.nav-link {
+    color: white!important;
+    padding-left: 80px!important;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #28a745!important;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media(max-width:576px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoresponsivo {
+        width: 50px!important;
+    }
+}
+
+.greta {
+    border: 2px solid black;
+    border-radius: 50%!important;
+    width: 25%;
+    /* margin-top: 20%; */
+}
+
+@media(max-width:576px) {
+    #perfil {
+        margin-top: 30%;
+    }
+    .textos h2 {
+        font-size: 150%;
+    }
+    .thumbNails {
+        justify-content: space-between!important;
+        flex-direction: row!important;
+        flex-wrap: wrap!important;
+        padding-left: 25%;
+    }
+    .imgThumb {
+        width: 45%!important;
+    }
+    .adicionar {
+        width: 15%!important;
+    }
+}
+
+@media(max-width:576px) {
+    .mediaInfo {
+        display: flex !important;
+        flex-direction: column!important;
+    }
+}
+
+.mediaInfo {
+    flex-direction: row;
+}
+
+
+/* .acoes img:hover {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    border-radius: 20%;
+} */
+
+.publicacoes {
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 4; */
+    /* default 0 */
+    /* flex-shrink: 3; */
+    justify-content: space-around;
+}
+
+@media(max-width:576px) {
+    .publicacoes {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .container {
+        width: 90%!important;
+        justify-content: center;
+    }
+    .coluna1 {
+        margin: 35% 5% 0 5%!important;
+    }
+    .pub1 {
+        margin: 0 10% 0 5%!important;
+    }
+}
+
+.container h4 a {
+    text-decoration: none;
+}
+
+.container h4 a:hover {
+    background-color: #28a745!important;
+    border-radius: 5%;
+}
+
+.container h3 a {
+    text-decoration: none;
+}
+
+.container h3 a:hover {
+    color: #28a745!important;
+}
+
+.recomendados:hover {
+    background-color: #28a745!important;
+    border-radius: 5%;
+}
+
+
+/******************************** ESTILOS DO FEED ***********************/
+
+@media(max-width:576px) {
+    .avatares {
+        border-radius: 50px!important;
+        width: 20%!important;
+    }
+}
+
+
+/* ------------------ CSS JU COUTINHO ------------------*/
+
+.menu {
+    display: inline-block;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+#logo {
+    max-width: 80px;
+    float: left;
+}
+
+header {
+    overflow: hidden;
+    background-color: #106552;
+    color: white;
+}
+
+h1 {
+    color: #828282;
+}
+
+.question {
+    padding: 0px 50px 0px 150px;
+}
+
+.button {
+    text-align: right;
+}
+
+.btn {
+    background-color: #106552;
+    color: white;
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin: 20px auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 20px;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #106552;
+    color: white;
+    max-height: 104px;
+}
+
+.img-social-media {
+    max-width: 40px;
+}
+
+.row {
+    text-align: center;
+}
+
+
+/* ENTRAR */
+
+#link-button {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* QUEM SOMOS */
+
+.capa-quem {
+    margin: 15px 0 0 0;
+    background-image: url(../img/mao-semente.jpg);
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;
+}
+
+.quem-somos {
+    margin: 10%;
+}
+
+.quem-img {
+    float: right;
+}
+
+.quem-texto {
+    float: left;
+}
+
+.somos-2 {
+    border-radius: 25%;
+}
+
+.founder-text {
+    background: white;
+    /* display: flex; */
+    text-align: center;
+    margin: 5% 10%;
+    padding-right: 10px;
+}
+
+.capa-oque {
+    margin: 15px 0 0 0;
+    background-image: url(../img/solo-plantar.jpg);
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;
+}
+
+.oque-fazemos {
+    margin: 10%;
+}
+
+.oque-img {
+    float: left;
+    margin: 0 0 15px 0;
+}
+
+.oque-texto {
+    float: right;
+}
+
+.capa-como {
+    margin: 15px 0 0 0;
+    background-image: url(../img/capa.jpg);
+    /* background-image: url(../img/jane.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 76vh;
+}
+
+.como-fazemos {
+    margin: 10%;
+}
+
+.como-img {
+    float: right;
+    padding: 0 0 5% 0;
+}
+
+.como-texto {
+    float: left;
+}
+
+.card-quem-oque-como {
+    background: none;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.card-img-top-founders {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.card-body-founders {
+    align-items: baseline;
+}
+
+
+/* CADASTRO ETAPA 1 */
+
+form {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.btn-voltar {
+    border-style: solid;
+    border-color: #106552;
+    color: #106552;
+    background-color: white;
+    float: right;
+    margin: 0px 10px;
+}
+
+.btn-proximo {
+    float: right;
+    border-color: #106552;
+    margin: 0px 10px;
+}
+
+
+/* PÁGINA ENTRAR */
+
+.form-cadastro {
+    padding: 0 350px 0 350px;
+    /* margin: 0 200px; */
+    line-height: 55px;
+}
+
+
+/* CADASTRO ETAPA 5 */
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens-texto {
+    max-width: 500px;
+    margin: auto 10px;
+}
+
+.caixa-texto {
+    display: flex;
+    justify-content: space-between;
+}
+
+#conquistas {
+    background: white;
+    display: flex;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+    align-items: baseline;
+    align-content: space-between!important;
+    text-align: center;
+}
+
+.card-img-top-resultados {
+    height: 60px;
+}
+
+.card-body {
+    align-items: baseline;
+}
+
+.card-resultados {
+    background: none;
+    align-items: center;
+}
+
+
+/* section .card {
+    border: none;
+}  */
+
+
+/* CONFIRMAÇÃO DO CADASTRO DO PROJETO */
+
+#conquistas-confirmar {
+    background: white;
+    display: flex;
+    flex-direction: row!important;
+    justify-content: left;
+    align-items: baseline;
+    text-align: center;
+}
+
+.card-confirmar {
+    border-style: groove;
+    max-width: 700px;
+}
+
+.card-img-top-confirmar {
+    height: 40px;
+}
+
+#conquistas-fotos-confirmar {
+    background: white;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.card-fotos-confirmar {
+    justify-content: left;
+    align-content: left;
+    max-width: 700px;
+}
+
+
+/* FEEDBACK CADASTRO */
+
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+.img-check-feedback {
+    margin: 0px 20px;
+}
+
+
+/* FEED */
+
+.perfil {
+    background-color: #e5e5e5;
+    margin: 5px auto;
+    padding: 5px;
+    width: 250px;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.posts {
+    background-color: #e5e5e5;
+    margin: 5px auto;
+    padding: 5px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    /* float: left; */
+}
+
+.interesses-recomendacoes {
+    background-color: #e5e5e5;
+    margin: 5px auto;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    float: right;
+}
+
+.feed {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-perfil {
+    max-width: 100px;
+    justify-content: center;
+}
+
+.subtema-interesse {
+    border-style: solid;
+    background-color: white;
+    color: #106552;
+    text-align: center;
+    margin: 5px;
+}
+
+.subtema-recomendacoes {
+    border-style: solid;
+    background-color: white;
+    color: #106552;
+    text-align: center;
+    margin: 5px;
+}
+
+.img-perfil-friend {
+    max-width: 50px;
+    float: left;
+    margin: 5px;
+}
+
+.post-escrito {
+    text-align: left;
+    font-style: normal;
+    margin: 5px;
+}
+
+.nome-perfil {
+    color: #106552;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+
+.posts-imgs-secund {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
