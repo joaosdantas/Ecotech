@@ -21,3 +21,5 @@ Route::get('/', function () {
 Route::get('/home', 'SiteController@home' )->name ('Home');
 
 
+
+
