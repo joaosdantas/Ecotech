@@ -17,7 +17,7 @@
     <header>
         <div class="menu ">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #106552!important; padding-left: 50px;">
-                <a class="navbar-brand" href="index_corrigida.html"><img src="imagens/EcoTech-logo-white (1).png" id="logo"></a>
+                <a class="navbar-brand" href="/home"><img src="imagens/EcoTech-logo-white (1).png" id="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,18 +25,18 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link branca" href="quem-somos.html">Quem Somos<span class="sr-only">(current)</span></a>
+                                <a class="nav-link branca" href="/quem-somos">Quem Somos<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="oque-fazemos.html">O que fazemos</a>
+                                <a class="nav-link" href="/oque-fazemos">O que fazemos</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link " href="como-fazemos.html">Como fazemos</a>
+                                <a class="nav-link " href="/como-fazemos">Como fazemos</a>
                             </li>
                            
                             <li class="nav-item">
-                                <a class="nav-link " href="entrar.html">Entrar</a>
+                                <a class="nav-link " href="/entrar">Entrar</a>
                             </li>
                         </ul>
                     </div>

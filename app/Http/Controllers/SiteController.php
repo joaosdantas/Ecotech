@@ -11,4 +11,24 @@ class SiteController extends Controller
         return view('home.home');
     }
 
+    public function QuemSomos()
+    {                   
+        return view('home.quem-somos');
+    }
+
+    public function comoFazemos()
+    {                   
+        return view('home.como-fazemos');
+    }
+
+    public function entrar()
+    {                   
+        return view('home.entrar');
+    }
+
+    public function cadastrar()
+    {                   
+        return view('cadastro.cadastrar');
+    }
+
 }
