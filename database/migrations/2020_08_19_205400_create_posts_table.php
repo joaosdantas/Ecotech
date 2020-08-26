@@ -15,6 +15,12 @@ class CreatePostsTable extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
+            $table->string('texto');
+            $table->integer('curtidas');
+            $table->integer('compartilhamentos');
+            $table->string('comentarios');
+            $table->foreignId('usuario_id')->constrained();
+            $table->foreignId('perfil_id')->constrained();
             $table->timestamps();
         });
     }

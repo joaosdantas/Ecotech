@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateInteressesTable extends Migration
+class UsuariosInteresses extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateInteressesTable extends Migration
      */
     public function up()
     {
-        Schema::create('interesses', function (Blueprint $table) {
+        Schema::create('usuarios_interesses', function (Blueprint $table) {
             $table->id();
-            $table->string('interesse');
+            $table->foreignId('usuario_id')->constrained();
+            $table->foreignId('interesse_id')->constrained();
             $table->timestamps();
         });
     }
@@ -27,6 +28,6 @@ class CreateInteressesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('interesses');
+        //
     }
 }

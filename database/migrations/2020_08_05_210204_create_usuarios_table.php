@@ -18,7 +18,16 @@ class CreateUsuariosTable extends Migration
             $table->string('Nome_Completo');
             $table->string('Telefone');
             $table->string('Email');
+            $table->date('dataDeNascimento');
             $table->string('Senha');
+            $table->string('Logradouro');
+            $table->integer('numero');
+            $table->string('bairro');
+            $table->string('cidade');
+            $table->string('estado');
+            $table->string('pais');
+            $table->string('cep');
+            $table->date('dataInclusao');
             $table->timestamps();
         });
     }

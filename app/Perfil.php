@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Perfil extends Model
 {
     
-    
+    public function usuario()
+    {
+        return $this->belongsTo('App\Usuario');
+    }
 }
