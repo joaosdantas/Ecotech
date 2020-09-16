@@ -107,7 +107,7 @@
         <div class="buttons">
 
             <div class="button-proximo">
-                <a href="feed.html" class="btn-proximo btn btn-default btn-lg">Próximo</a>
+                <a href="cadastro-etapa-1.blade.php" class="btn-proximo btn btn-default btn-lg">Próximo</a>
             </div>
 
             <div class="button-voltar">

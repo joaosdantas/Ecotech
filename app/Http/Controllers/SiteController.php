@@ -31,4 +31,13 @@ class SiteController extends Controller
         return view('cadastro.cadastrar');
     }
 
+    public function perfil()
+    {                   
+        return view('perfil');
+    }
+    public function feed()
+    {                   
+        return view('feed');
+    }
+
 }

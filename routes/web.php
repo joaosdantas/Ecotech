@@ -27,6 +27,9 @@ Route::get('/entrar', 'SiteController@entrar' )->name('entrar');
 // Rotas cadastro
 Route::get('/cadastrar', 'SiteController@cadastrar' )->name('cadastrar');
 
+Route::get('/cadastrar-1', 'SiteController@cadastrar1' )->name('cadastrar-1');
 
+Route::get('/perfil', 'SiteController@perfil' )->name('Perfil');
 
+Route::get('/feed', 'SiteController@feed' )->name('Feed');
 
