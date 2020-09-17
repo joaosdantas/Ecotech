@@ -6,6 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Projeto extends Model
 {
+    //Adicionando os campos fillable
+    protected $fillable = [
+        'titulo', 'descricao', 'captacao',
+    ];
+
     //Adicionando relacionamento 1:n ImagemProjeto
     public function imagensProjetos(){
         
