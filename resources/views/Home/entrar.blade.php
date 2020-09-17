@@ -10,7 +10,7 @@
         <div class="container d-flex justify-content-center" style="margin-top: 2%;">
             <h1>Login</h1>
         </div>
-        <div class="container d-flex justify-content-center">
+        {{-- <div class="container d-flex justify-content-center">
             <button type="button" class="btn-face btn-outline-primary" style="margin-top: 5%;font-size: 20px; padding: 2%; width: 30%;"> <img src="imagens/facebook.png" alt=""style="padding: 1%;"> Continuar com Facebook</button>
 
         </div>
@@ -18,7 +18,7 @@
         <div class="container d-flex justify-content-center">
             <button type="button" class="btn-google btn-outline-danger" style="margin-top: 2%;font-size: 20px; padding: 2%; width: 30%;"><img src="imagens/social-google-plus-icon.png" alt=""style=" padding-right: 8%;">Continuar com Google</button>
 
-        </div>
+        </div> --}}
 
 
 
@@ -86,7 +86,7 @@
             <!-- <a href=" entrar.html " style="text-decoration:none;">
                 <h1>Já é Cadastrado? Então entre aqui</h1>
             </a> -->
-            <a class="btn btn-success" href="/cadastrar" style="width: 50%; font-size: 25px; padding: 2%;" id="entrar">Não tem conta? Cadastre-se aqui </a>
+            <a class="btn btn-success" href="cadastro-pessoa-1" style="width: 50%; font-size: 25px; padding: 2%;" id="entrar">Não tem conta? Cadastre-se aqui </a>
         </div>
     </section>
     <br>

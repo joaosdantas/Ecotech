@@ -5,42 +5,33 @@
 
     <section class="container page-one">
 
-        <br><br><br>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
+        <br><br><br><br><br>
 
 
-        <form action="">
-            <h1>Faça uma breve descrição...</h1>
+        <div class="container question-button">
+            <br>
 
 
+            <article class="question">
 
+                <h1>Comece agora a divulgar seus projetos e compartilhar o impacto deles para o mundo.</h1>
 
-            <textarea name="descricao" id="descricao" cols="150" rows="4"></textarea>
+            </article>
+            <br>
+            <br>
+            <br>
 
-        </form>
-
-        <br>
-
-        <div class="buttons">
-
-            <div class="button-proximo">
-                <a href="cadastro-etapa-5" class="btn-proximo btn btn-default btn-lg">Próximo</a>
-            </div>
-
-            <div class="button-voltar">
-                <a href="cadastro-etapa-3" class="btn-voltar btn btn-default btn-lg">Voltar</a>
+            <div class="button">
+                <a href="cadastro-etapa-1.html" class=" btn btn-default btn-lg"> Cadastre</a>
             </div>
         </div>
-        </div>
 
         <br>
         <br>
         <br>
         <br>
         <br>
-
+        <br>
 
 
 

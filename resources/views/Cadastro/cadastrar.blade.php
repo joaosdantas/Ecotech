@@ -1,6 +1,6 @@
 @extends('cadastro-template')
 
-@section('cadastro')
+@section('main')
 
 <section class="container page-one">
 

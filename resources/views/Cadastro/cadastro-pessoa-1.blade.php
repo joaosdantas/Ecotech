@@ -1,5 +1,5 @@
 @extends('cadastro-template')
-@section('cadastro')
+@section('main')
 
 <section class="container page-one">
 
@@ -20,18 +20,23 @@
 
 
         <div class="box col-md-8">
-            <form class="needs-validation" novalidate>
+        <form action="{{route('registrarUsuario')}}" class="needs-validation" novalidate method="POST">
+            @csrf
+
+                <label for="validationCustom02">Nome</label>
+                                <input type="text" name="nome" class="form-control" id="validationCustom02" value="">
+
                 <div class="form-row">
                     <div class="">
                         <label for="validationCustom01">Telefone</label>
-                        <input type="phone" class="form-control" id="validationCustom01" value="(00) 9000-0000" required>
+                        <input type="phone" class="form-control" name="telefone" id="validationCustom01" value="(00) 9000-0000" required>
                         <div class="valid-feedback">
                             <!-- Looks good! -->
                         </div>
                     </div>
                     <div class="">
-                        <label for="validationCustom02">Cidade</label>
-                        <input type="text" class="form-control" id="validationCustom02" value="São Paulo; Rio de Janeiro;" required>
+                        <label for="validationCustom02">E-mail</label>
+                        <input type="email" name="email" class="form-control" id="validationCustom02" value="seu-email@email.com" required>
                         <div class="valid-feedback">
                             <!-- Looks good! -->
                             <!-- <label for="validationCustom02">Interesses</label>
@@ -54,17 +59,16 @@
                             <div class="valid-feedback">
 
                                 <label for="validationCustom02">Perfil</label>
-                                <select type="text" class="form-control form-control-lg" id="formGroupExampleInput" placeholder="">
+                                <select type="text" name="perfil" class="form-control form-control-lg" id="formGroupExampleInput" placeholder="">
                                     <option selected disabled value="">Selecione...</option>
                                     <option>Empreendedor</option>
                                     <option>Investidor</option>
                                     <option>Apoiador</option>
                                 </select>
 
-                                <label for="validationCustom02">Objetivos</label>
-                                <input type="text" class="form-control" id="validationCustom02" value="">
-
                                 
+
+                                                                
 
 
                             </div>
@@ -90,7 +94,7 @@
     </div>
 
 
-    <!-- <button class="btn btn-primary" type="submit">Submit form</button> -->
+    <button class="btn btn-primary" type="submit">Salvar form</button>
     </form>
     </div>
     </div>
@@ -106,11 +110,11 @@
 <div class="buttons">
 
     <div class="button-proximo">
-        <a href="feed.html" class="btn-proximo btn btn-default btn-lg">Próximo</a>
+        <a href="feed" class="btn-proximo btn btn-default btn-lg">Próximo</a>
     </div>
 
     <div class="button-voltar">
-        <a href="interesses.html" class="btn-voltar btn btn-default btn-lg">Voltar</a>
+        <a href="interesses" class="btn-voltar btn btn-default btn-lg">Voltar</a>
     </div>
 </div>
 
@@ -119,6 +123,8 @@
 <br>
 <br>
 <br>
+<br>
+
 
 
 @endsection

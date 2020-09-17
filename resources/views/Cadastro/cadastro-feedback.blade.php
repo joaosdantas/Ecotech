@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+@extends('cadastro-template')
 
-<head>
-    <meta charset="UTF-8">
-    <title>EcoTech</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" href="imagens/Untitled drawing 2.png" type="image/x-icon">
-</head>
-
-<body>
-
-    <header>
-        <div class="menu ">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #106552!important; padding-left: 50px;">
-                <a class="navbar-brand" href="index_corrigida.html"><img src="imagens/EcoTech-logo-white (1).png" id="logo"></a>
-
-        </div>
-
-        </nav>
-        </div>
-    </header>
+@section('main')
 
 
     <section class="container page-one">
@@ -131,4 +111,4 @@
 
 </body>
 
-</html>
+@endsection

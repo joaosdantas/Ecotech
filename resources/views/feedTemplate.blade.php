@@ -20,7 +20,7 @@
     <header>
         <div class="menu ">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #106552!important; padding-left: 50px; position: fixed; left: 0; top: 0; width: 100%;">
-                <a class="navbar-brand" href="feed.html"><img class="logoresponsivo" src="imagens/EcoTech-logo-white (1).png" style="width: 75px; margin: 0;"></a>
+                <a class="navbar-brand" href="feed"><img class="logoresponsivo" src="imagens/EcoTech-logo-white (1).png" style="width: 75px; margin: 0;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>

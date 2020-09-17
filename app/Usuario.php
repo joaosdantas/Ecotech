@@ -12,6 +12,8 @@ class Usuario extends Model
     //     return $this->hasOne('App\Perfil');
     // }
 
+    protected $fillable = ['Nome_Completo', 'Telefone', 'Email', 'Senha'];
+
     
     public function Usuario(){
         
@@ -36,34 +38,3 @@ class Usuario extends Model
     }
 }
 
-class User extends Authenticatable
-{
-    use Notifiable;
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'Nome_Completo', 'Email', 'Senha',
-    ];
-
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
-    protected $hidden = [
-        'Senha', 'remember_token',
-    ];
-
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
-}

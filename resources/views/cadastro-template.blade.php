@@ -14,7 +14,7 @@
     <header>
         <div class="menu ">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #106552!important; padding-left: 50px;">
-                <a class="navbar-brand" href="index_corrigida.html">
+                <a class="navbar-brand" href="home">
                     <img src="imagens/EcoTech-logo-white (1).png" id="logo"></a>
 
         </div>
@@ -25,7 +25,7 @@
 
     <main>
         
-        @yield('cadastro')
+        @yield('main')
 
     </main>
 
