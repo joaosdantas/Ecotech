@@ -59,6 +59,11 @@ body {
     /* margin-top: 20%; */
 }
 
+#buttonNext {
+    margin-left: 87%;
+    font-size: 130%;
+}
+
 @media(max-width:576px) {
     #perfil {
         margin-top: 30%;

@@ -35,10 +35,10 @@
                         </form>
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link branca" href="feed.html">Início<span class="sr-only">(current)</span></a>
+                                <a class="nav-link branca" href="/feed">Início<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link branca" href="perfil.html">Perfil<span class="sr-only">(current)</span></a>
+                                <a class="nav-link branca" href="/perfil">Perfil<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Notificações</a>
@@ -49,7 +49,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link " href="index_corrigida.html">Sair</a>
+                                <a class="nav-link " href="/home">Sair</a>
                             </li>
                         </ul>
 
@@ -76,76 +76,72 @@
 
             <div class="container d-flex justify-content-center">
                 <h5>
-                    <a href="perfil.html"> Greta Thumberg </a>
+                    <a href="/perfil"> Greta Thumberg </a>
                 </h5>
             </div>
-            <br><br>
+            
 
             <div class="container d-flex justify-content-center">
 
                 <h4>
-                    <a href="perfil.html" style="padding: 2% 10% 5% 10%;"> Configurações</a>
+                    <a href="perfil.html" > Configurações</a>
                 </h4>
             </div>
-            <br>
+            
 
 
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="publicacoes.html" style="padding: 2% 10% 5% 10%;"> Publicações </a>
+                    <a href="/perfil" > Projetos </a>
                 </h4>
             </div>
-            <br>
+            
+            
+            
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="projetos.html" style="padding: 2% 10% 5% 10%;"> Projetos</a>
+                    <a href="/perfil" > Mensagens </a>
                 </h4>
             </div>
-            <br>
+            
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="perfil.html" style="padding: 2% 10% 5% 10%;"> Mensagens </a>
+                    <a href="/perfil" > Interesses </a>
                 </h4>
             </div>
-            <br>
-            <div class="container d-flex justify-content-center">
-                <h4>
-                    <a href="perfil.html" style="padding: 2% 10% 5% 10%;"> Interesses </a>
-                </h4>
-            </div>
-            <br>
+            
             <hr style="width: 100%; border: 1px solid #28a745;">
             <div class="container d-flex justify-content-center">
-                <h3>Buscas Recentes</h3>
+                <h3 style="font-size:150%; ">Buscas Recentes</h3>
             </div>
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="perfil.html"> #Madeira</a>
+                    <a href="/perfil"> #Madeira</a>
                 </h4>
             </div>
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="perfil.html"> #Viagem</a>
+                    <a href="/perfil"> #Viagem</a>
                 </h4>
             </div>
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="perfil.html"> #Aquecimento</a>
+                    <a href="/perfil"> #Aquecimento</a>
                 </h4>
             </div>
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="perfil.html"> #Valor</a>
+                    <a href="/perfil"> #Valor</a>
                 </h4>
             </div>
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="perfil.html"> #Vagas</a>
+                    <a href="/perfil"> #Vagas</a>
                 </h4>
             </div>
             <div class="container d-flex justify-content-center">
                 <h4>
-                    <a href="perfil.html"> #Sucesso</a>
+                    <a href="/perfil"> #Sucesso</a>
                 </h4>
             </div>
 
