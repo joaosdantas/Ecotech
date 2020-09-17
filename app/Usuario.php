@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 class Usuario extends Model
 {
     
-    // public function perfil()
-    // {
-    //     return $this->hasOne('App\Perfil');
-    // }
-
-    protected $fillable = ['Nome_Completo', 'Telefone', 'Email', 'Senha'];
-
+    
+    protected $fillable = ['nome', 'telefone', 'email', 'senha', 'perfil'];
+    
+    public function perfil()
+    {
+        return $this->hasOne('App\Perfil');
+    }
     
     public function Usuario(){
         

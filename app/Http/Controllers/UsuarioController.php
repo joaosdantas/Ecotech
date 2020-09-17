@@ -15,16 +15,17 @@ class UsuarioController extends Controller
 
     public function store(Request $request)    
     {
-        dd($request->all());
+        // dd($request->all());
 
         Usuario::create([
-            'Nome_Completo'=>$request->nome,
-            'Telefone'=>$request->telefone,
-            'Email'=>$request->email,
-            // 'Perfil'=>$request->perfil,
+            'nome'=>$request->nome,
+            'telefone'=>$request->telefone,
+            'email'=>$request->email,
+            'senha'=>$request->senha,
+            'perfil'=>$request->perfil,
         ]);
 
-        return "Produto Criado com Sucesso!";
+        return view('cadastro.cadastroProjeto', );
 
 
     }

@@ -14,7 +14,7 @@ class CreatePerfilsTable extends Migration
     public function up()
     {
         Schema::create('perfils', function (Blueprint $table) {
-            $table->string('Tipo_Perfil');
+            // $table->string('Tipo_Perfil');
             $table->id();
             $table->string('perfil');
             $table->timestamps();

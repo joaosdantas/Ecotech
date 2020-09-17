@@ -13,17 +13,18 @@ class ProjetoSeeder extends Seeder
     {
         for($i=0;$i<10;$i++){ 
         DB::table('projetos')->insert([
-            'titulo'=> Str::random(10),
-            'descricao'=> Str::random(10),
-            'cidade'=> Str::random(10),
-            'estado'=> Str::random(2),
-            'pais'=> Str::random(5),
-            'estado'=> Str::random(2),
-            'premios'=> rand(0,10),
+            'titulo'=> Str::random(5),
+            'descricao'=> Str::random(5),
             'colaboradores'=> rand(1,50),
             'captacao'=> rand(1,999),
             'parcerias'=> rand(1,999999),
-            'locaisProjeto'=> rand(1,999999),
+            'usuario_id'=> rand(1,10),
+            // 'interesses'=> Str::random(3),
+            // 'locaisProjeto'=> rand(1,999999),
+            // 'cidade'=> Str::random(10),
+            // 'estado'=> Str::random(2),
+            // 'pais'=> Str::random(5),
+            // 'estado'=> Str::random(2),
 
         ]);
     }

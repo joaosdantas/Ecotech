@@ -66,12 +66,16 @@
                                     <option>Apoiador</option>
                                 </select>
 
+
                                 
 
                                                                 
 
 
                             </div>
+
+                            <label for="validationCustom02">Senha</label>
+                                <input type="text" name="senha" class="form-control" id="validationCustom02" value="">
                             <br>
                             <div class="form-group">
                                 <div class="form-check">
@@ -94,7 +98,7 @@
     </div>
 
 
-    <button class="btn btn-primary" type="submit">Salvar form</button>
+    <button class="btn btn-primary" type="submit">Continuar</button>
     </form>
     </div>
     </div>
@@ -119,7 +123,6 @@
 </div>
 
 
-<br>
 <br>
 <br>
 <br>

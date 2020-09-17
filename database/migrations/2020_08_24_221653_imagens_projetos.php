@@ -15,7 +15,7 @@ class ImagensProjetos extends Migration
     {
         Schema::create('imagens_projetos', function (Blueprint $table) {
             $table->id();
-            $table->string('nome');
+            $table->string('nomeImagem');
             $table->foreignId('projeto_id')->constrained();
             $table->timestamps();
         });

@@ -17,14 +17,15 @@ class CreateProjetosTable extends Migration
             $table->id();
             $table->string('titulo');
             $table->string('descricao');
-            $table->string('cidade');
-            $table->string('estado');
-            $table->string('pais');
-            $table->integer('premios');
             $table->integer('colaboradores');
             $table->decimal('captacao', 7,2);
             $table->integer('parcerias');
-            $table->integer('locaisProjeto');
+            $table->foreignId('usuario_id')->constrained();
+            // $table->string('cidade');
+            // $table->string('estado');
+            // $table->string('pais');
+            // $table->integer('premios');
+            // $table->integer('locaisProjeto');
             $table->timestamps();
         });
     }

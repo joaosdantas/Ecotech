@@ -30,6 +30,7 @@ Route::post('usuarios', 'UsuarioController@store')->name('registrarUsuario');
 Route::get('/cadastrar', 'SiteController@cadastrar' )->name('cadastrar');
 Route::get('/cadastrar-projeto', 'SiteController@cadastroProjeto' )->name('cadastrar-projeto');
 Route::get('/cadastro-pessoa-1', 'SiteController@cadastroPessoa' )->name('cadastro-pessoa-1');
+Route::get('/cadastrarProjeto', 'SiteController@cadastrar8' )->name('cadastrarProjeto');
 
 Route::get('/cadastro-etapa-1', 'SiteController@cadastrar1' )->name('cadastro-etapa-1');
 Route::get('/cadastro-etapa-2', 'SiteController@cadastrar2' )->name('cadastro-etapa-2');
@@ -43,4 +44,5 @@ Route::get('/cadastro-etapa-8', 'SiteController@cadastrar8' )->name('cadastro-et
 Route::get('/perfil', 'SiteController@perfil' )->name('Perfil');
 
 Route::get('/feed', 'SiteController@feed' )->name('Feed');
+Route::post('/feed', 'SiteController@feed' )->name('registrarProjeto');
 

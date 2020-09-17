@@ -13,7 +13,13 @@ class AssociadosProjetos extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('associados_projetos', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('projeto_id')->constrained();
+            $table->foreignId('usuario_id')->constrained();
+            $table->foreignId('perfil_id')->constrained();
+            $table->timestamps();
+        });
     }
 
     /**

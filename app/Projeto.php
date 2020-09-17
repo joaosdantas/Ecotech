@@ -8,7 +8,7 @@ class Projeto extends Model
 {
     //Adicionando os campos fillable
     protected $fillable = [
-        'titulo', 'descricao', 'captacao',
+        'titulo', 'descricao', 'colaboradores', 'captacao', 'parcerias',
     ];
 
     //Adicionando relacionamento 1:n ImagemProjeto

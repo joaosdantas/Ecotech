@@ -62,7 +62,7 @@ class SiteController extends Controller
     }
     public function cadastrar8()
     {                   
-        return view('cadastro.cadastro-etapa-8');
+        return view('cadastro.cadastrarProjeto');
     }
     public function cadastroProjeto()
     {                   
