@@ -35,14 +35,14 @@
                 <div class="form-row">
                     <div class="">
                         <label for="validationCustom01">Telefone</label>
-                        <input type="phone" class="form-control" name="telefone" id="validationCustom01" value="{{old('telefone')}} required>
+                        <input type="phone" class="form-control" name="telefone" id="validationCustom01" value="{{old('telefone')}}" required>
                         <div class="valid-feedback">
                             <!-- Looks good! -->
                         </div>
                     </div>
                     <div class="">
                         <label for="validationCustom02">E-mail</label>
-                        <input type="email" name="email" class="form-control" id="validationCustom02" value="{{old('email')}} required>
+                        <input type="email" name="email" class="form-control" id="validationCustom02" value="{{old('email')}}" required>
                         <div class="valid-feedback">
                             <!-- Looks good! -->
                             <!-- <label for="validationCustom02">Interesses</label>
@@ -81,7 +81,7 @@
                             </div>
 
                             <label for="validationCustom02">Senha</label>
-                                <input type="text" name="senha" class="form-control" id="validationCustom02" value="">
+                                <input type="password" name="senha" class="form-control" id="validationCustom02" value="">
                             <br>
                             <div class="form-group">
                                 <div class="form-check">

@@ -25,18 +25,17 @@ class UsuarioController extends Controller
             'perfil'=>$request->perfil,
         ]);
 
-        $this->validate($request, $this->Perfil->rules);
+        $this->validate($request, $this->Usuario->rules);
         
         return view('cadastro.cadastroProjeto', );
 
-       
 
     }
 
     public function show($id)
     {
         $usuarios = Usuario::findOrFail($id);
-        return view('', ['usuarios'=>$usuarios]);
+        return view('feed', ['usuarios'=>$usuarios]);
 
     }
 
