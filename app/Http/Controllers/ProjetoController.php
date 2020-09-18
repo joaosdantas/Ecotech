@@ -33,4 +33,11 @@ class ProjetoController extends Controller
 
 
     }
+
+    public function show($id)
+    {
+        $projetos = Projeto::findOrFail($id);
+        return view('feed', ['projetos'=>$projetos]);
+
+    }
 }

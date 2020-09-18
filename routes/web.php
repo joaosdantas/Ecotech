@@ -24,14 +24,36 @@ Route::get('/quem-somos', 'SiteController@quemSomos' )->name('QuemSomos');
 Route::get('/como-fazemos', 'SiteController@comoFazemos' )->name('comoFazemos');
 Route::get('/entrar', 'SiteController@entrar' )->name('entrar');
 
-//Cadastro Usuario
+//----------------CRUD
+
+//Create Usuário
 Route::get('cadastroPessoa', 'UsuarioController@create');
 Route::post('cadastroPessoa', 'UsuarioController@store')->name('registrarUsuario');
 
-//Cadastro Usuario
+//Read Usuário
+Route::get('cadastroPessoa/ver/{id}', 'UsuarioController@show');
+
+//Create Projeto
 Route::get('cadastrarProjeto', 'ProjetoController@create');
 Route::post('cadastrarProjeto', 'ProjetoController@store')->name('registrarProjeto');
 
+//Read Projeto
+Route::get('cadastroProjeto/ver/{id}', 'ProjetoController@show');
+
+//Create Post
+Route::get('publicarPost', 'PostController@create');
+Route::post('publicarPost', 'PostController@store')->name('publicarPost');
+
+//Read Post
+Route::get('publicarPost/ver/{id}', 'PostController@show');
+
+
+
+
+
+
+
+//----------------
 // Rotas cadastro
 Route::get('/cadastrar', 'SiteController@cadastrar' )->name('cadastrar');
 Route::get('/cadastrar-projeto', 'SiteController@cadastroProjeto' )->name('cadastrar-projeto');

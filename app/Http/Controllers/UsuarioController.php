@@ -9,8 +9,8 @@ class UsuarioController extends Controller
 {
     public function index()
     {
-    $usuarios = Usuario::all();
-    return view('cadastro.cadastro-pessoa-1', compact('usuarios'));
+        $usuarios = Usuario::all();
+        return view('cadastro.cadastro-pessoa-1', compact('usuarios'));
     }
 
     public function store(Request $request)    
@@ -27,6 +27,13 @@ class UsuarioController extends Controller
 
         return view('cadastro.cadastroProjeto', );
 
+
+    }
+
+    public function show($id)
+    {
+        $usuarios = Usuario::findOrFail($id);
+        return view('', ['usuarios'=>$usuarios]);
 
     }
 
