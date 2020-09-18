@@ -20,8 +20,8 @@ class CreateProjetosTable extends Migration
             $table->integer('colaboradores');
             $table->decimal('captacao', 7,2);
             $table->integer('parcerias');
-            $table->foreignId('usuario_id')->constrained();
-            // $table->string('cidade');
+            $table->string('interesses');
+            // $table->foreignId('usuario_id')->constrained();
             // $table->string('estado');
             // $table->string('pais');
             // $table->integer('premios');

@@ -3,26 +3,31 @@
 @section('main')
 
 
-    <section class="container page-one">
 
-        <br><br><br>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-
-        <div class="">
+<section class="container page-one">
+    
+    <div class="button">
+        <a href="cadastroProjeto" class=" btn btn-default btn-lg btn-pular">Voltar</a>
+    </div>
+    <br>
+    
+    <div class="">
+    
             <div class="box col-md-4">
+
                 <h1>Que bacana! <br> Mais um passo nessa sua incrível jornada! </h1>
                 <h3>Nos conte um pouquinho da sua iniciativa, vamos potencializar essa ideia...</h3>
             </div>
 
             <div class="box col-md-8">
                 
-                <form class="needs-validation" novalidate>
+                <form action="{{route('registrarProjeto')}}" class="needs-validation"  novalidate method="POST">
+                    @csrf
+                    
                     <div class="form-row">
                         <div class="">
                             <label for="validationCustom01">Nome do Projeto</label>
-                            <input type="text" name="titulo" action="{{route('registrarProjeto')}}" class="form-control" id="validationCustom01" required method="POST">
+                            <input type="text" name="titulo" class="form-control" id="validationCustom01" required >
                             <div class="valid-feedback">
                                 <!-- Looks good! -->
                         </div>
@@ -40,8 +45,7 @@
                         
                         <label for="validationCustom02">Captação</label>
                                 <input type="number" name="captacao" class="form-control" id="validationCustom02" value="R$" required>
-                        {{-- </section> --}}
-
+                        
                         <label for="validationCustom02">Parcerias</label>
                                 <input type="text" name="parcerias" class="form-control" id="validationCustom02" value="Captar recursos" required>
                                 
@@ -56,21 +60,10 @@
                                 </select>
                                 
                                 <br>
-                                {{-- <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                        <label class="form-check-label" for="invalidCheck">
-                                            Concordo com os Termos e Condições de Uso
-                                        </label>
-                                        <div class="invalid-feedback">
-                                            Você precisa aceitar para prosseguir!
-                                        </div>
-                                    </div>
-                                </div> --}}
-                                
                             </div>
                         </div>
                     </div>
+             
                     <button class="btn btn-primary" type="submit">Enviar</button>
                 </div>
                 
@@ -98,16 +91,10 @@
             <a href="cadastro-feedback" class="btn-proximo btn btn-default btn-lg">Próximo</a>
         </div> --}}
 
-        <div class="button-voltar">
+        {{-- <div class="button-voltar">
             <a href="cadastro-etapa-6" class="btn-voltar btn btn-default btn-lg">Voltar</a>
-        </div>
+        </div> --}}
     </div>
-
-
-    <br>
-    <br>
-    <br>
-    <br>
 
 
 

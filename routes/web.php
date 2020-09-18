@@ -23,8 +23,14 @@ Route::get('/oque-fazemos', 'SiteController@oQueFazemos' )->name('oQueFazemos');
 Route::get('/quem-somos', 'SiteController@quemSomos' )->name('QuemSomos');
 Route::get('/como-fazemos', 'SiteController@comoFazemos' )->name('comoFazemos');
 Route::get('/entrar', 'SiteController@entrar' )->name('entrar');
-Route::get('usuarios', 'UsuarioController@index');
-Route::post('usuarios', 'UsuarioController@store')->name('registrarUsuario');
+
+//Cadastro Usuario
+Route::get('cadastroPessoa', 'UsuarioController@create');
+Route::post('cadastroPessoa', 'UsuarioController@store')->name('registrarUsuario');
+
+//Cadastro Usuario
+Route::get('cadastrarProjeto', 'ProjetoController@create');
+Route::post('cadastrarProjeto', 'ProjetoController@store')->name('registrarProjeto');
 
 // Rotas cadastro
 Route::get('/cadastrar', 'SiteController@cadastrar' )->name('cadastrar');
@@ -44,5 +50,5 @@ Route::get('/cadastro-etapa-8', 'SiteController@cadastrar8' )->name('cadastro-et
 Route::get('/perfil', 'SiteController@perfil' )->name('Perfil');
 
 Route::get('/feed', 'SiteController@feed' )->name('Feed');
-Route::post('/feed', 'SiteController@feed' )->name('registrarProjeto');
+Route::post('/feed', 'SiteController@feed' )->name('registrarPost');
 

@@ -193,6 +193,20 @@ h1 {
     color: white;
 }
 
+.btn-pular {
+    background-color: white;
+    color: #106552;
+    border-color:white;
+}
+
+div .button .btn-voltar {
+    background-color: white;
+    color: #106552;
+    border-color:white;
+    float:left;
+    
+}
+
 nav {
     margin: auto;
     width: 100%;

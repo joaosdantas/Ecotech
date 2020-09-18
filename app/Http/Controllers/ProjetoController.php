@@ -9,26 +9,27 @@ use App\AssociadosProjeto;
 
 class ProjetoController extends Controller
 {
-    public function create()
+    public function index()
     {
-    $usuarios = Projeto::all();
-    return view('cadastro.cadastroProjeto', compact('projetos'));
+    $projetos = Projeto::all();
+    return view('cadastro.cadastrarProjeto', compact('projetos'));
     }
 
     public function store(Request $request)    
     {
-        dd($request->all());
+        //dd($request->all());
 
-        Usuario::create([
+        Projeto::create([
             'titulo'=>$request->titulo,
             'descricao'=>$request->descricao,
             'colaboradores'=>$request->colaboradores,
             'captacao'=>$request->captacao,
             'parcerias'=>$request->parcerias,
-            
+            'interesses'=>$request->interesses,
+                       
         ]);
 
-        return "Projeto criado com sucesso!";
+        return view('feed', );
 
 
     }
