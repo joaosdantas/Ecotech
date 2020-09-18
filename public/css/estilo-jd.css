@@ -91,19 +91,9 @@ body {
     flex-direction: row;
 }
 
-
-/* .acoes img:hover {
-    background-color: #28a745;
-    border: 1px solid #28a745;
-    border-radius: 20%;
-} */
-
 .publicacoes {
     display: flex;
     flex-direction: row;
-    /* flex-grow: 4; */
-    /* default 0 */
-    /* flex-shrink: 3; */
     justify-content: space-around;
 }
 

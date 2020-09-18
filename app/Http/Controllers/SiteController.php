@@ -85,5 +85,5 @@ class SiteController extends Controller
     {                   
         return view('feed');
     }
-
+    
 }

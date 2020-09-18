@@ -74,3 +74,4 @@ Route::get('/perfil', 'SiteController@perfil' )->name('Perfil');
 Route::get('/feed', 'SiteController@feed' )->name('Feed');
 Route::post('/feed', 'SiteController@feed' )->name('registrarPost');
 
+

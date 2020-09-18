@@ -27,15 +27,6 @@
 
 
         
-    <footer style="width: 100%;background-color:#106552 ;">
-
-
-        <br>
-
-
-        <div class="container copyright text-center" style="padding-bottom: 3%; color: white;">
-            <p>Copyright &copy; Your 2019</p>
-
-        </div>
+   
 
         @endsection

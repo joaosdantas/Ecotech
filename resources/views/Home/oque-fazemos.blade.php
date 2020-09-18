@@ -6,7 +6,7 @@
     <!-- <img src="img/capa.jpg" alt="" >  -->
 </div>
 
-    <div class="container oque-fazemos" id="">
+    <div class="container oque-fazemos">
 
         <div class="oque-texto col-md-6">
             <h1>Fazemos!</h1>

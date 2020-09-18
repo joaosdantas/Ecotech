@@ -80,7 +80,7 @@
         </div>
 
         <div class=".card-quem-oque-como" style="width: 18rem;" id="">
-            <img src="img/joao-dantas.jpeg" class="card-img-top-founders" alt="...">
+            <img src="img/joao-dantas.jpg" class="card-img-top-founders" alt="...">
             <div class="card-body-founders">
                 <h5 class="card-title">João Dantas</h5>
                 <!-- <p class="card-text">Contribua para a realização de um projeto ou encontre pessoas que também querem impactar o mundo como você!</p> <br> -->
