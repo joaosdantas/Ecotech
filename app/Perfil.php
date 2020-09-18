@@ -11,4 +11,6 @@ class Perfil extends Model
     {
         return $this->belongsTo('App\Usuario');
     }
+
+    
 }

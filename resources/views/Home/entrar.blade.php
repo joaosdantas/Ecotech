@@ -50,16 +50,7 @@
             </div>
         </div>
 
-        <div class="container form-group row">
-            <div class="col-md-1 offset-md-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                    <label class="form-check-label" for="remember">
-                        {{ __('Lembrar') }}
-                    </label>
-                </div>
-            </div>
+        
         </div>
 
         <div class=" container form-group row mb-0">

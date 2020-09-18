@@ -16,7 +16,13 @@
         </div>
 
 
-
+        @if (isset($errors) && count($errors) > 0 )
+                <div class="alert alert-danger ">
+                    @foreach($errors->all() as $error)
+                    <h4>{{$error}}</h4>
+                    @endforeach
+                </div>
+        @endif
 
 
         <div class="box col-md-8">
@@ -24,19 +30,19 @@
             @csrf
 
                 <label for="validationCustom02">Nome</label>
-                                <input type="text" name="nome" class="form-control" id="validationCustom02" value="">
+                                <input type="text" name="nome" class="form-control" id="validationCustom02" value="{{old('name')}}">
 
                 <div class="form-row">
                     <div class="">
                         <label for="validationCustom01">Telefone</label>
-                        <input type="phone" class="form-control" name="telefone" id="validationCustom01" value="(00) 9000-0000" required>
+                        <input type="phone" class="form-control" name="telefone" id="validationCustom01" value="{{old('telefone')}} required>
                         <div class="valid-feedback">
                             <!-- Looks good! -->
                         </div>
                     </div>
                     <div class="">
                         <label for="validationCustom02">E-mail</label>
-                        <input type="email" name="email" class="form-control" id="validationCustom02" value="seu-email@email.com" required>
+                        <input type="email" name="email" class="form-control" id="validationCustom02" value="{{old('email')}} required>
                         <div class="valid-feedback">
                             <!-- Looks good! -->
                             <!-- <label for="validationCustom02">Interesses</label>
@@ -98,7 +104,7 @@
     </div>
 
 
-    <button id="buttonNext" class="btn btn-primary" >Continuar</button>
+    <button id="buttonNext" class="btn btn-success" >Continuar</button>
     </form>
     </div>
     </div>
