@@ -20,6 +20,10 @@ class SiteController extends Controller
     {                   
         return view('home.como-fazemos');
     }
+    public function oQueFazemos()
+    {                   
+        return view('home.oque-fazemos');
+    }
 
     public function entrar()
     {                   

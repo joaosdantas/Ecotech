@@ -33,10 +33,10 @@
                         </form>
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link branca" href="feed.html">Início<span class="sr-only">(current)</span></a>
+                                <a class="nav-link branca" href="/feed">Início<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link branca" href="perfil.html">Perfil<span class="sr-only">(current)</span></a>
+                                <a class="nav-link branca" href="/perfil">Perfil<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Notificações</a>
@@ -47,7 +47,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link " href="index_corrigida.html">Sair</a>
+                                <a class="nav-link " href="/home">Sair</a>
                             </li>
                         </ul>
 

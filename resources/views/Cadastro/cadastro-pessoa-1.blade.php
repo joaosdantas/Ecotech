@@ -98,7 +98,7 @@
     </div>
 
 
-    <button class="btn btn-primary" type="submit">Continuar</button>
+    <button id="buttonNext" class="btn btn-primary" >Continuar</button>
     </form>
     </div>
     </div>
@@ -111,23 +111,26 @@
     </div>
 </section>
 
-<div class="buttons">
+{{-- <div class="buttons">
 
     <div class="button-proximo">
-        <a href="feed" class="btn-proximo btn btn-default btn-lg">Próximo</a>
+        <a href="feed" class="btn-proximo btn btn-default btn-lg" type="submit">Próximo</a>
     </div>
 
     <div class="button-voltar">
         <a href="interesses" class="btn-voltar btn btn-default btn-lg">Voltar</a>
     </div>
-</div>
+</div> --}}
 
 
 <br>
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
 
 
 @endsection
