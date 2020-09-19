@@ -4,9 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Usuario;
+use Illuminate\Support\Facades\Auth;
 
 class UsuarioController extends Controller
 {
+
+    
+
+
     public function index()
     {
         $usuarios = Usuario::all();

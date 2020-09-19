@@ -28,36 +28,7 @@
 
 
 
-<section class="container justify-content-center " id="conquistas">
 
-        <!-- <div class="card-quem-oque-como" style="width: 18rem;" id="">
-            <img src="img/ana-luiza.jpeg" class="card-img-top-founders" alt="...">
-            <div class="card-body-founders">
-                <h5 class="card-title">Ana Luíza</h5>
-               
-                
-            </div>
-        </div>
-
-        <div class=".card-quem-oque-como" style="width: 18rem;" id="">
-            <img src="img/joao-dantas.jpeg" class="card-img-top-founders" alt="...">
-            <div class="card-body-founders">
-                <h5 class="card-title">João Dantas</h5>
-                
-                
-            </div>
-        </div>
-
-        <div class="card-quem-oque-como" style="width: 18rem;" id="">
-            <img src="img/ju-coutinho.jpeg" class="card-img-top-founders" alt="...">
-            <div class="card-body-founders">
-                <h5 class="card-title">Ju Coutinho</h5>
-                
-                
-            </div>
-        </div> -->
-
-</section>
 
 
     <section class="founder-text" id="">
@@ -67,7 +38,7 @@
 
     </section>
 
-    <section class="container justify-content-center " id="conquistas">
+    <section class=" container justify-content-center " id="conquistas">
 
         <div class="card-quem-oque-como" style="width: 18rem;" id="">
             <img src="img/ana-luiza.jpeg" class="card-img-top-founders" alt="...">
@@ -98,7 +69,7 @@
                 
             </div>
         </div>
-
+    
 </section>    
 
        

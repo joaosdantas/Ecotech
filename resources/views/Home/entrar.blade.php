@@ -13,9 +13,9 @@
 <div class="container ">
    
    <div class="container d-flex justify-content-center">
-    <form method="POST" action="{{ route('entrar') }}">
+    <form method="GET" action="{{ route('entrar') }}">
         @csrf
-
+{{$name}}
         <div class="form-group row">
             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail ') }}</label>
 
@@ -31,12 +31,12 @@
         </div>
 
         <div class=" form-group row">
-            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Senha') }}</label>
+            <label for="senha" class="col-md-4 col-form-label text-md-right">{{ __('Senha') }}</label>
 
             <div class="col-md-8">
                 <input id="password" type="password" class="form-control @error('Senha') is-invalid @enderror" name="Senha" required autocomplete="current-password">
 
-                @error('password')
+                @error('senha')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>
@@ -64,7 +64,7 @@
 </div>
     <div class="container d-flex justify-content-center" style="margin-bottom:10%; margin-top: 10%; ">
             
-        <a class="btn btn-success" href="cadastro-pessoa-1" style="width: 50%; font-size: 25px; padding: 2%;" id="entrar">Não tem conta? Cadastre-se aqui </a>
+        <a class="botaoCadastro btn btn-success" href="cadastro-pessoa-1" style="width: 50%; font-size: 25px; padding: 2%;" id="entrar">Não tem conta? Cadastre-se aqui </a>
     </div>
 </div>
     
