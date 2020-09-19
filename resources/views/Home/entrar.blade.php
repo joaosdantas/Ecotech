@@ -15,7 +15,7 @@
    <div class="container d-flex justify-content-center">
     <form method="GET" action="{{ route('entrar') }}">
         @csrf
-{{$name}}
+
         <div class="form-group row">
             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail ') }}</label>
 

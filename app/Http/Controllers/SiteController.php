@@ -26,8 +26,8 @@ class SiteController extends Controller
     }
 
     public function entrar()
-    {      $data = ['name' => 'Joãozim'];             
-        return view('home.entrar', $data );
+    {                  
+        return view('home.entrar');
     }
 
     public function cadastrar()
