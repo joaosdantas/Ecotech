@@ -25,7 +25,7 @@ class UsuarioController extends Controller
             'perfil'=>$request->perfil,
         ]);
 
-        $this->validate($request, $this->Usuario->rules);
+        // $this->validate($request, $this->Usuario->rules);
         
         return view('cadastro.cadastroProjeto', );
 

@@ -10,12 +10,12 @@ class Usuario extends Model
     
     protected $fillable = ['nome', 'telefone', 'email', 'senha', 'perfil'];
 
-    public $rules = [
-        'nome'=> 'required | min:3 | max:100',
-        'telefone'=> 'required |numeric',
-        'email'=> 'required |email',
-        'senha'=> 'required | min:10 | max:100',
-        ];
+    // public $rules = [
+    //     'nome'=> 'required | min:3 | max:100',
+    //     'telefone'=> 'required |numeric',
+    //     'email'=> 'required |email',
+    //     'senha'=> 'required | min:10 | max:100',
+    //     ];
     
     public function perfil()
     {

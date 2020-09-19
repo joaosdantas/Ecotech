@@ -176,36 +176,36 @@
                 <!-- INÍCIO PUBLICAÇÃO 1-->
 
 
-                <div class="container d-flex row  ">
+                {{-- <div class="container d-flex row  ">
 
                     <img class="avatares" src="imagens/soniaperfil.jpg" alt="Perfil" style="float: left;border: 2px solid #28a745;
                     border-radius: 50px;
                     width: 10%; margin-right: 2%;">
-                    <h5 style="margin-top: 3%;">Sonia Bone Guajajara</h5>
+                    <h5 style="margin-top: 3%;"></h5>
 
 
-                </div>
-                <p style="padding-left:15% ;">
+                </div> --}}
+                {{-- <p style="padding-left:15% ;">
                     Ontem às 08:35
-                </p>
+                </p> --}}
                 <hr class="container d-flex justify-content-center" style="width: 50%; border: 1px solid #28a745;">
                 <div class="container d-flex justify-content-center" style="margin-top: 2%;">
-                    <h4> Acampamento Terra Livre
+                    <h4>Faça sua primeira publicação!
 
                     </h4>
                 </div>
                 <!-- <hr style="width: 100%; border: 1px solid #28a745;"> -->
-                <div class="container d-flex justify-content-center">
+                {{-- <div class="container d-flex justify-content-center">
                     <p>O Acampamento Terra Livre é o momento em que povos indígenas de todo o Brasil se reúnem para articular a luta e a resistência do movimento indígena. Nesse ano 16º ATL será realizado de forma diferente, a partir de uma programação online
                         para atender as orientações de isolamento social necessárias para conter a nova ameaça causada pela pandemia da Covid-19 (novo Coronavírus). <a href="#">Ler Mais...</a></p>
-                </div>
-                <hr class="container d-flex justify-content-center" style="width: 50%; border: 1px solid #28a745;">
+                </div> --}}
+                {{-- <hr class="container d-flex justify-content-center" style="width: 50%; border: 1px solid #28a745;"> --}}
 
                 <div class="container d-flex justify-content-center pub1" style="padding: 0; margin: 0;">
-                    <img src="imagens/publicasonia.jpg" alt="" style="width: 100%; padding: 0; margin: 0 ;box-shadow:         0px 0px 30px 6px rgba(50, 50, 50, 0.3);">
+                    <img src="img/comece.png" alt="" style="width: 100%; padding: 0; margin: 0 ;box-shadow:         0px 0px 30px 6px rgba(50, 50, 50, 0.3);">
                 </div>
 
-                <div class="container d-flex " onclick="myFunction(this, 'green')">
+                {{-- <div class="container d-flex " onclick="myFunction(this, 'green')">
                     <img src="imagens/like.png" alt="curtir" style="width: 5%; margin-top:2% ;">
 
                     <img src="imagens/comentar.png" alt="Comentar" style="width: 5%; margin-top:2% ;margin-left: 27%;">
@@ -308,7 +308,7 @@
 
                     <img src="imagens/mais.png" alt="" style="width: 5%; margin-top:2% ;margin-left: 27%;">
 
-                </div>
+                </div> --}}
 
 
             </div>

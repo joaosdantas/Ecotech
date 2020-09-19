@@ -22,6 +22,7 @@ Route::get('/home', 'SiteController@home' )->name('Home');
 Route::get('/oque-fazemos', 'SiteController@oQueFazemos' )->name('oQueFazemos');
 Route::get('/quem-somos', 'SiteController@quemSomos' )->name('QuemSomos');
 Route::get('/como-fazemos', 'SiteController@comoFazemos' )->name('comoFazemos');
+
 Route::get('/entrar', 'SiteController@entrar' )->name('entrar');
 
 //----------------CRUD
@@ -32,6 +33,7 @@ Route::post('cadastroPessoa', 'UsuarioController@store')->name('registrarUsuario
 
 //Read Usuário
 Route::get('cadastroPessoa/ver/{id}', 'UsuarioController@show');
+// Route::get('/entrar','SiteController@FazerLogin');
 
 //Create Projeto
 Route::get('cadastrarProjeto', 'ProjetoController@create');

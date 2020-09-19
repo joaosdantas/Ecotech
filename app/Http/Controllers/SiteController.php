@@ -85,5 +85,9 @@ class SiteController extends Controller
     {                   
         return view('feed');
     }
+    // public function FazerLogin()
+    // {
+    //     return view('entrar');
+    // }
     
 }
